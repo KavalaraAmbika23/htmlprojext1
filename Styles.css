@@ -1,0 +1,270 @@
+*,
+*::after,
+*::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#69247C;
+    
+    line-height: 1.5;
+   
+}
+.container{
+    display: flex;
+    height:100vh ;
+    
+    /* background-color: #69247C; */
+   
+  
+}
+.sidebar{
+    background-color: #DA498D;
+    border-right: 2px;
+    border-color: #FAC67A;
+   
+    /* line-height: 2.5; */
+    margin: 2px;
+    padding: 5px;
+    height: 100vh;
+    position: fixed;
+    text-align: center;
+    
+}
+.profile{
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.profile h2{
+
+    font-weight: 50px;
+    color: antiquewhite;
+    margin-bottom: 12px;
+
+}
+.profile p{
+    color: beige;
+    font-weight: 300;
+
+}
+.navigaion{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 5px;
+    padding: 8px;
+    
+    
+}
+.navigaion a{
+    display: flex;
+    text-decoration: none;
+    color: bisque;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 12px;
+    align-items: center;
+    transition: 0.5s ease-in;
+    padding-left: 5px;
+
+}
+.navigaion a:hover{
+    background-color: #FAC67A;
+    cursor: pointer;
+    color: black;
+    
+
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    padding: 20px;
+    padding-right: 5px;
+    margin-left: 250px;
+    /* position: fixed; */
+   
+    width:80%;
+    
+}
+.header{
+    background-color: #DA498D;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom:35px ;
+    padding: 20px;
+    border-radius: 10px;
+}
+.search-bar img{
+    height: 30px;
+    width: 30px;
+    border: 5px;
+    border-radius: 50%;
+    
+}
+.Social{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding-left: 10px;
+    align-items: center;
+    width: 700px;
+
+  
+}
+.Social img{
+    height: 50px;
+    width: 50px;
+}
+.btn{
+    background-color: rgb(233, 223, 223);
+    border-radius: 30px;
+    height: 20px;
+    width: 100px;
+}
+.btn:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.search-bar{
+    display: flex;
+    gap: 0px;
+    flex-direction: row;
+
+}
+.search-bar input{
+    width: 200px;
+    border: 5px white;
+    border-radius: 50px;
+    padding: 10px,15px;
+    
+   
+}
+.search-bar input:hover{
+    
+    color: black;
+    padding-left: 5px;
+}
+.search-bar .sbtn{
+    border-radius: 5px;
+    background-color: #DA498D;
+    border: 0px;
+}
+.sats{
+    background-color:#DA498D;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 20px; */
+    gap: 20px;
+    margin-bottom: 30px;
+    height: 200px;
+    padding-top: 50px;
+    padding-bottom:40px ;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+}
+.sats-cards{
+    background-color:#69247C;
+    color: aliceblue;
+    height: 70px;
+    width: 25%;
+    text-align: center;
+    padding: 15px;
+    /* padding-left: 50px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+    border: 2px;
+    border-radius: 15%;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+
+}
+.sats-cards:hover{
+    transform: translateY(-8px);
+    cursor: pointer;
+    color: rgb(13, 14, 14);
+    background-color: #FAC67A;
+    
+}
+
+
+
+
+
+.skill-progress{
+    background-color:#DA498D;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+
+progress{
+    
+    width: 100%;
+    height: 20px;
+    padding-bottom: 5px;
+    
+}
+progress::-webkit-progress-bar{
+    background-color: rgb(19, 130, 228);
+    border-radius: 10px;
+}
+progress::-webkit-progress-value{
+    background-color: rgb(183, 180, 192);
+    border-radius: 10px;
+}
+.project-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #DA498D;
+  
+    padding-left: 5px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+.projectsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right:15px ;
+    padding-left: 15px;
+    padding-bottom: 100px;
+}
+.project-section .projectsection .project-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color:#69247C;
+    color: aliceblue;
+    text-align: center;
+  
+    border: 5px black;
+    height: 200px;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 30%; 
+}
+#headings{
+    color: #dcdf09;
+    font-style: italic;
+    
+}
+
+
+    
+
